@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{% load static %}
+
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
     <head>
@@ -9,6 +12,7 @@
         <h1>Rango says...</h1>
         hello world! <strong>{{ boldmessage }}</strong><br />
         <a href="/rango/about/">About</a><br />
+        <img src="{% static "11.jpg" %}" alt="Picture of LG G2" />
     </body>
 
 </html>
